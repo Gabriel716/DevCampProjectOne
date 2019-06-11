@@ -1,0 +1,44 @@
+/* Common navigation styles */
+body{
+    margin: 0px;
+}
+
+.navigation-wrapper{
+    height: 200px;
+    background-color: #11122b;
+    color: #f5f5f5;
+    /* Flexbox container */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* padding (adding space to the flexbox) */
+    padding: 50px 100px;
+    /* padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 100px;
+    padding-left: 100px; */
+}
+
+/* Use for multiple elements */
+.contact-hours-wrapper{
+    color: blue;
+}
+
+
+.address-wrapper{
+    color: red;
+}
+
+
+
+
+
+/* h1{
+    
+    color: blue;
+    text-decoration: underline;
+}
+p{
+    background-color: black;
+    color: white;
+} */

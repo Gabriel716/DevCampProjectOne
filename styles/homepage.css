@@ -1,0 +1,29 @@
+/* Spaghetti section style */
+.parallax-background{
+    background-image: url(../images/backgrounds/spaghetti.jpg);
+    padding: 100px;
+    height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax-background > .top-heading{
+    padding: 1px 15px;
+    background-color: #11122b;
+    color: #cbcbcb;
+    width: 290px;
+    border-radius: 2px;
+}
+.parallax-background > .bottom-heading{
+    background-color: #cea135;
+    color: #11122b;
+    padding: 1px 15px;
+    margin-top: 15px;
+    width: 105px;
+    border-radius: 2px;
+}
+.features-section{
+    height:400px;
+    background-image: url(../images/backgrounds/Noodles.jpg);
+}

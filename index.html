@@ -10,43 +10,102 @@
     <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
     <title>Homepage</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css"/>
+
+    <!-- Imports -->
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/common.css"/>
+    <link rel="stylesheet" href="styles/nav.css"/>
+    <link rel="stylesheet" href="styles/homepage.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"/>
     <!-- <script src="main.js"></script> -->
 
 </head>
 <body>
-    
     <div class="navigation-wrapper">
-        <div>
+        <div class="left-column">
+            <div class="icon">
+                <i class="fas fa-phone-volume"></i>
+            </div>
+            
             <div class="contact-hours-wrapper">
-            420-210-9001
-            6AM to 9PM
+                <div class="phone">             
+                    420-210-9001
+                </div>
+                <div class="hours">
+                    6AM to 9PM
+                </div> 
             </div>
         </div>
         <!-- Link Wrapper -->
-        <div>
-            <div class="nav-link">
-                <a href="index.html">Home</a>
+        <div class="center-column">
+            <div class="banner-image">
+                    <img src="images/logos/logo.png" alt="Logo">
             </div>
-            <div class="nav-link">
-                <a href="about.html">About</a>
-            </div>
-            <div class="nav-link">
-                <a href="menu.html">Menu</a>
-            </div>
-            <div class="nav-link">
-                <a href="contact.html">Contact</a>
-            </div>
-            <div class="nav-link">
-                <a href="pages/demo.html">Demo</a>
-            </div>
+            <div class="links-wrapper">
+                <div class="nav-link">
+                    <a href="index.html">Home</a>
+                </div>
+                <div class="nav-link">
+                    <a href="about.html">About</a>
+                </div>
+                <div class="nav-link">
+                    <a href="menu.html">Menu</a>
+                </div>
+                <div class="nav-link">
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div class="nav-link">
+                    <a href="pages/demo.html">Demo</a>
+                </div>
             <!-- <a href="https://www.youtube.com/watch?v=SP-gmyvNzl0" target="_blank">Meme</a> -->
-            <p>Add flexbox</p>
+            <!-- <p>Add flexbox</p> -->
+            </div>
         </div>
-        <div class="address-wrapper">
-        123 Elm Street
+        
+        <div class="right-column">
+                <div class="address-wrapper">
+                    <a href="contact.html">123 Any Street<br>
+                    Scottsdale, AZ, 85251</a>
+                </div>
+            
+                <div class="contact-icon">
+                    <a href="contact.html">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </a>
+                </div>
         </div>
     </div>
-    
+    <div class="parallax-background">
+        <div class="top-heading">
+            <h1>HTML Styled Spaghetti</h1>
+        </div>
+        <div class="bottom-heading">
+            <h3>Coding Magic</h3>
+        </div>
+    </div>
+    <div class="features-section">
+        <div classs="columns-wrapper">
+            <div class="column">
+                <i class="fas fa-grin-squint-tears"></i>
+                <p>We Have Memes</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+
+            <div class="column">
+                <i class="far fa-surprise"></i>
+                <p>Poggers</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+
+            <div class="column">
+                <i class="fab fa-bitbucket"></i>
+                <p>Amount of Spaghetti</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+            
+        </div>
+    </div>
 </body>
 </html>

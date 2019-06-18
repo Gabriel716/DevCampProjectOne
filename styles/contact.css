@@ -19,3 +19,6 @@
     font-size: 1.25em;
     align-items: center;
 }
+.company-metadata-sidebar-wrapper > .company-details-wrapper i{
+    color: #cea135;
+}
